@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Kingview CompactMode="1" Name="BrotherCNC" Comment="" FileVersion="1" Guid="B2D04975-D09E-4924-AFC2-E5FD7C5C2090" Author="Jepor" Modifier="" CreateTime="2021-05-28 06:20:06" ModifyTime="2021-05-28 06:20:06" IOServerNum="1" KSServerNum="1" SolutionType="1" IconFilePathUnsel="" IconFilePathSel="" ActivePro="BrotherCNC">
-	<FileInfo Type="" Version="0x1"/>
-	<Projects>
-		<Project ProjectType="1" Name="BrotherCNC" Comment="" Guid="8D2BA40F-0896-4387-A03D-8C38C7DB3FF8" Path="BrotherCNC\\BrotherCNC.ksapp" Active="1" ProjectFilesValidFlag="1"/>
-		<Project ProjectType="3" Name="IOServerCNC" Comment="" Guid="ABF497C4-64FE-428c-B786-F130A0A133DD" Path="IOServerCNC\\测试IO.kioapp" ProjectFilesValidFlag="1"/>
-	</Projects>
-</Kingview>
