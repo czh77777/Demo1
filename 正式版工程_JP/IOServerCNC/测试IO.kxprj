@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Kingview CompactMode="1" Name="测试IO" Comment="" FileVersion="1" Guid="3976B2C7-6432-4965-B7D8-E88DC77578E4" Author="" Modifier="" CreateTime="2021-05-29 01:20:36" ModifyTime="2021-05-29 01:20:36" IOServerNum="2" SolutionType="1" IconFilePathUnsel="" IconFilePathSel="" ActivePro="IOServerCNC">
+	<FileInfo Type="" Version="0x1"/>
+	<Projects>
+		<Project ProjectType="3" Name="IOServerCNC" Comment="" Guid="ABF497C4-64FE-428c-B786-F130A0A133DD" Path="测试IO.kioapp" Active="1" ProjectFilesValidFlag="1"/>
+		<Project ProjectType="3" Name="CNC_TEST" Comment="" Guid="7D45109B-CF02-4b8c-935F-16A83F461F45" Path="..\\..\\..\\..\\CNC_TEST_copy\\CNC_TEST.kioapp" ProjectFilesValidFlag="1"/>
+	</Projects>
+</Kingview>

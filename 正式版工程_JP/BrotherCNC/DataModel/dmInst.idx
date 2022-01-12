@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Kingview CompactMode="1" AppVer="1">
+	<FileInfo Type=".idx" Version="0x0"/>
+	<dmInsts>
+		<dmInst ID="-2147483646" DmDefID="131072" Name="PageCNC" Desc="" RefCount="0" Ref="1">
+			<TagInstances>
+				<TagInstance ID="-2147467263" TagDefID="-2147475451" Name="IsLoad" Desc="" RefCount="0" Type="32" SubType="1" DataType="268435457"/>
+				<TagInstance ID="-2147467259" TagDefID="-2147475454" Name="CNCNO" Desc="" RefCount="0" Type="32" SubType="1" DataType="268435459"/>
+				<TagInstance ID="-2147467258" TagDefID="-2147475453" Name="CNCName" Desc="" RefCount="0" Type="32" SubType="1" DataType="268435462"/>
+				<TagInstance ID="-2147467257" TagDefID="-2147475452" Name="主轴刀具编号" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435458"/>
+				<TagInstance ID="-2147467256" TagDefID="-2147475455" Name="主轴回转速" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435459"/>
+				<TagInstance ID="-2147467255" TagDefID="-2147475450" Name="主轴超程倍率" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435459"/>
+				<TagInstance ID="-2147467254" TagDefID="-2147475449" Name="切削进给超程倍率" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435459"/>
+				<TagInstance ID="-2147467253" TagDefID="-2147475448" Name="剩余距离X" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467252" TagDefID="-2147475447" Name="剩余距离Y" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467251" TagDefID="-2147475446" Name="剩余距离Z" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467250" TagDefID="-2147475445" Name="快速进给超程倍率" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467249" TagDefID="-2147475444" Name="总操作时间" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467248" TagDefID="-2147475443" Name="控制面板功能灯" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467247" TagDefID="-2147475442" Name="操作时间" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467246" TagDefID="-2147475441" Name="机械位置X" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467245" TagDefID="-2147475440" Name="机械位置Y" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467244" TagDefID="-2147475439" Name="机械位置Z" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467243" TagDefID="-2147475438" Name="相对坐标X" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467242" TagDefID="-2147475437" Name="相对坐标Y" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467241" TagDefID="-2147475436" Name="相对坐标Z" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467240" TagDefID="-2147475435" Name="程序编号MONTR1" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467239" TagDefID="-2147475434" Name="紧急停止状态" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467238" TagDefID="-2147475433" Name="绝对坐标X" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467237" TagDefID="-2147475432" Name="绝对坐标Y" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467236" TagDefID="-2147475431" Name="绝对坐标Z" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467235" TagDefID="-2147475430" Name="自动运行下的模式" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467234" TagDefID="-2147475429" Name="计数" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435458"/>
+				<TagInstance ID="-2147467233" TagDefID="-2147475428" Name="计数当前值" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435458"/>
+				<TagInstance ID="-2147467232" TagDefID="-2147475427" Name="运行模式" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467231" TagDefID="-2147475426" Name="进给速度" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467230" TagDefID="-2147475425" Name="通电时间" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147466922" TagDefID="-2147475423" Name="设备SN" Desc="" RefCount="0" Type="32" SubType="1" DataType="268435462"/>
+				<TagInstance ID="-2147467201" TagDefID="-2147475424" Name="连接状态" Desc="" RefCount="0" Type="32" SubType="1" DataType="268435457"/>
+			</TagInstances>
+		</dmInst>
+		<dmInst ID="-2147483647" DmDefID="131072" Name="CNC1" Desc="" RefCount="0" Ref="0">
+			<TagInstances>
+				<TagInstance ID="-2147467262" TagDefID="-2147475451" Name="IsLoad" Desc="" RefCount="0" Type="32" SubType="1" DataType="268435457"/>
+				<TagInstance ID="-2147467261" TagDefID="-2147475454" Name="CNCNO" Desc="" RefCount="0" Type="32" SubType="1" DataType="268435459"/>
+				<TagInstance ID="-2147467260" TagDefID="-2147475453" Name="CNCName" Desc="" RefCount="0" Type="32" SubType="1" DataType="268435462"/>
+				<TagInstance ID="-2147467229" TagDefID="-2147475452" Name="主轴刀具编号" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435458"/>
+				<TagInstance ID="-2147467228" TagDefID="-2147475455" Name="主轴回转速" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435459"/>
+				<TagInstance ID="-2147467227" TagDefID="-2147475450" Name="主轴超程倍率" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435459"/>
+				<TagInstance ID="-2147467226" TagDefID="-2147475449" Name="切削进给超程倍率" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435459"/>
+				<TagInstance ID="-2147467225" TagDefID="-2147475448" Name="剩余距离X" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467224" TagDefID="-2147475447" Name="剩余距离Y" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467223" TagDefID="-2147475446" Name="剩余距离Z" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467222" TagDefID="-2147475445" Name="快速进给超程倍率" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467221" TagDefID="-2147475444" Name="总操作时间" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467220" TagDefID="-2147475443" Name="控制面板功能灯" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467219" TagDefID="-2147475442" Name="操作时间" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467218" TagDefID="-2147475441" Name="机械位置X" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467217" TagDefID="-2147475440" Name="机械位置Y" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467216" TagDefID="-2147475439" Name="机械位置Z" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467215" TagDefID="-2147475438" Name="相对坐标X" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467214" TagDefID="-2147475437" Name="相对坐标Y" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467213" TagDefID="-2147475436" Name="相对坐标Z" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467212" TagDefID="-2147475435" Name="程序编号MONTR1" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467211" TagDefID="-2147475434" Name="紧急停止状态" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467210" TagDefID="-2147475433" Name="绝对坐标X" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467209" TagDefID="-2147475432" Name="绝对坐标Y" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467208" TagDefID="-2147475431" Name="绝对坐标Z" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467207" TagDefID="-2147475430" Name="自动运行下的模式" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467206" TagDefID="-2147475429" Name="计数" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435458"/>
+				<TagInstance ID="-2147467205" TagDefID="-2147475428" Name="计数当前值" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435458"/>
+				<TagInstance ID="-2147467204" TagDefID="-2147475427" Name="运行模式" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147467203" TagDefID="-2147475426" Name="进给速度" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435460"/>
+				<TagInstance ID="-2147467202" TagDefID="-2147475425" Name="通电时间" Desc="" RefCount="0" Type="32" SubType="2" DataType="268435462"/>
+				<TagInstance ID="-2147466921" TagDefID="-2147475423" Name="设备SN" Desc="" RefCount="0" Type="32" SubType="1" DataType="268435462"/>
+				<TagInstance ID="-2147467200" TagDefID="-2147475424" Name="连接状态" Desc="" RefCount="0" Type="32" SubType="1" DataType="268435457"/>
+			</TagInstances>
+		</dmInst>
+	</dmInsts>
+</Kingview>

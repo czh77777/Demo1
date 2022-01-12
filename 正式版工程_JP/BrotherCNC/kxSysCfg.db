@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Kingview CompactMode="1">
+	<FileInfo Type="KXSYSCFG" Version="0x1"/>
+	<SystemConfigFolder ModifyVersion="30">
+		<AlmRecSetting Version="3" RecordAlarm="1" RecordOperation="1" RecordUserLogon="1" RecordWorkstation="1" DiskBufferSize="50" MemBufferSize="8" Timeout="0" RemoveOnSendFailed="0">
+			<AlmRecFilter Version="2" AlmStation="local" AlarmGrpName="RootNode" Priority="1" AlarmGrpID="1879048192"/>
+			<AlmStoreSetting StoreAlarm="1" StoreResum="1" StoreConfirm="1"/>
+		</AlmRecSetting>
+		<AlmDBSetting Version="8" StorePerMonth="0" UseDefaultDatSrc="1" BufferSize="1000" TimeSpan="365" AutoDeleteAlarm="1" DeleteAlarmMode="2" DBTimeout="30" KingHistorian="0" ConnectKingHistorian="0" KingHistorianName="" KingHistorianPort="0" KingHistorianUserName="" KingHistorianPassword="" AlarmDBType="0">
+			<DataSource ConnectString="" UserName="" Password="" DSN="Alarm&amp;Event"/>
+		</AlmDBSetting>
+		<HisRecSetting Version="4" SavingDuration="365" DiskWarnMinSize="500" DiskBufferSize="50" MemBufferSize="8" AppointedSavingPath="" Timeout="0" RemoveOnSendFailed="0" HistoryStoreMode="0" KingHistorianName="127.0.0.1" KingHistorianPort="5678" KingHistorianUserName="sa" KingHistorianPassword="sa" KingHistorianPTimeOut="0"/>
+		<RealPrnSetting PrinterName="" PrintAlarmEvent="0" PrintOperationEvent="0" PrintUserLogonEvent="0" PrintWorkStationEvent="0">
+			<AlarmFields AlarmFieldsSize="0"/>
+			<LogonFields LogonFieldsSize="0"/>
+			<OperationFields OperationFieldsSize="0"/>
+			<WorkStationFields WorkStationFieldsSize="0"/>
+			<AlarmOrder AlarmOrderSize="0"/>
+			<LogonOrder LogonOrderSize="0"/>
+			<OperationOrder OperationOrderSize="0"/>
+			<WorkStationOrder WorkStationOrderSize="0"/>
+			<AlarmGrpsFields AlarmGrpsFieldsSize="0"/>
+		</RealPrnSetting>
+		<MakerSetting Caption="" rojPathVisible="0"/>
+		<ProjEncryptSetting Password="" TimeBegain="" TimeEnd="" ProjectID="" FirstFlag="" LoadPWD="" ForeverFlag="" AlarmPreDay=""/>
+		<SendSetting Version="3" SendFilterCount="0" ReceiverCount="0">
+			<RealPrnSetting PrinterName="" PrintAlarmEvent="0" PrintOperationEvent="0" PrintUserLogonEvent="0" PrintWorkStationEvent="0">
+				<AlarmFields AlarmFieldsSize="0"/>
+				<LogonFields LogonFieldsSize="0"/>
+				<OperationFields OperationFieldsSize="0"/>
+				<WorkStationFields WorkStationFieldsSize="0"/>
+				<AlarmOrder AlarmOrderSize="0"/>
+				<LogonOrder LogonOrderSize="0"/>
+				<OperationOrder OperationOrderSize="0"/>
+				<WorkStationOrder WorkStationOrderSize="0"/>
+				<AlarmGrpsFields AlarmGrpsFieldsSize="0"/>
+			</RealPrnSetting>
+			<AlmEmailSetting Version="3" IsSend="0" Email="" POP3="" SMTP="" Title="" USER="" PASS="" POP3Port="110" SMTPPort="6400" FailTryCount="0"/>
+			<AlmSMSSetting IsSend="0" SMSDevSeries="" SMSDevName="" SMSCenter="" MessageFormat="1" MessageCodeMode="0" Timeout="10000" Baud="9600" Parity="0" DataBit="8" StopBit="1" FailTryCount="0"/>
+			<AlmRTXSetting IsSend="0" FailTryCount="0" ServerIP="" ServerPort="0" SendingUser=""/>
+		</SendSetting>
+		<MainPics Size="1">
+			<Picture0>
+				<MainPic Name="CNC看板" Desc=""/>
+			</Picture0>
+		</MainPics>
+		<SpecialSetting Version="6" QuitForbidden="0" TaskSwitchForbidden="0" AltKeyForbidden="0" UseVitualKeyboard="0" UseSoundTip="0" DispalyLastValue="0" HideFocusRect="0" DataCollectOptimize="1" PicViewTagResponseType="0" PicViewTagResponse="500"/>
+		<MenuSetting PicMenuVisible="0" SysMenuVisible="0" DebugMenuVisible="1" ToolMenuVisible="0" AboutMenuVisible="0"/>
+		<WinSetting Version="3" StartupOption="0" Caption="" SysMenuVisible="0" MaximizeBoxVisible="0" MinimizeBoxVisible="0" Resizable="0" PrjPathVisible="0" MainMenuVisible="0" AdaptiveResolution="0" InitWindowLeft="0" InitWindowTop="0" InitWindowWidth="1280" InitWindowHeight="1024"/>
+		<NetLocalSetting Version="5" SingleNode="1" StationName="local" StationIP="127.0.0.1" StationPort="0" StationBackupNetIP="" StationBackupNetPort="0" RedunStationName="" RedunStationIP="" RedunStationPort="0" RedunStationBackupNetIP="" RedunStationBackupNetPort="0" RedunMode="0" IsPrimary="1" RedundantChannel="0" SerialChannel="" RedunSerialChannel="" IPChannel="" RedunIPChannel="" HeartthrobCheckTime="5" HeartthrobCheckCount="3" RedunBaud="9600" RedunData="8" RedunStop="1" RedunHeartthrobCheckTime="5" RedunHeartthrobCheckCount="3" SwitchTime="10" StationRole="0" BackupHisData="0" TimeInterval="0" AlarmServerName="" HistoryServerName="" LogonServerName="" TimeServerName="" Client="0" AlarmServerStationName_Count="0" HistoryServerStationName_Count="0" IOServerStationName_Count="0" bLogonLicMode="0"/>
+		<ConvertPicSetting CurFrameWidth="1280" CurFrameHeight="1024"/>
+	</SystemConfigFolder>
+</Kingview>

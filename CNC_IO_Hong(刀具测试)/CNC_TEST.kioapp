@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Kingview CompactMode="1">
+	<FileInfo Type=".kioapp" Version="0x4"/>
+	<BasicInfo Name="Hong_Test" Comment="" Guid="7D45109B-CF02-4b8c-935F-16A83F461F45" Author="Administrator" Company="" ScreenResolution="0" ProjectVersion="-2147483640" ProjectType="3" TemplateFlag="0" ProjectFilesValidFlag="1" ModifyTime="2021-06-09 07:33:08" CreateTime="2021-05-27 06:31:00" OEMID="0" AdaptiveResolution="0" ConvertType="1"/>
+	<Settings>
+		<Setting DataType="Bool" Name="encrypted" Value="False"/>
+		<Setting DataType="String" Name="ProjectTemplateName" Value="Standard"/>
+	</Settings>
+	<Files>
+		<File Name="IOServer.db"/>
+		<File Name="Channel.db"/>
+		<File Name="Device.db"/>
+		<File Name="Tag.db"/>
+		<File Name="NonLinearTable.db"/>
+		<File Name="CNC_TEST.kioapp"/>
+	</Files>
+</Kingview>
